@@ -805,6 +805,7 @@ INSERT INTO `sym_pages` (`id`, `parent`, `title`, `handle`, `path`, `params`, `d
 (2, NULL, '403', '403', NULL, NULL, 'javascript,menu,package,pages,pages_erreurs,plh_page,site_config,sri,build,datetime', 'flang_redirect,login,usebuild', 2, '403', '403', '403', '403'),
 (3, NULL, '404', '404', NULL, NULL, 'javascript,menu,package,pages,pages_erreurs,plh_page,site_config,sri,build,datetime', 'flang_redirect,login,usebuild', 3, '404', '404', '404', '404'),
 (4, NULL, 'UI-toolkit', 'ui-toolkit', NULL, NULL, 'javascript,menu,package,pages,plh_page,site_config,sri,build,datetime', 'flang_redirect,login,usebuild', 4, 'UI-toolkit', 'ui-toolkit', 'UI-toolkit', 'ui-toolkit');
+(5, NULL, 'CSS', 'css', NULL, NULL, 'package', '', 4, 'CSS', 'css', 'CSS', 'css');
 
 -- --------------------------------------------------------
 
@@ -820,6 +821,10 @@ INSERT INTO `sym_pages_types` (`id`, `page_id`, `type`) VALUES
 (8, 2, 'hidden'),
 (10, 3, 'f288-hidden'),
 (11, 3, 'hidden'),
+(14, 4, 'hidden'),
+(15, 4, 'f288-hidden'),
+(16, 5, 'hidden'),
+(17, 5, 'f288-hidden'),
 (13, 1, 'index');
 
 -- --------------------------------------------------------
